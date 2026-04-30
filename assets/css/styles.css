@@ -6,10 +6,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 /* Global Styles */
-body {
-    font-family: "Inter", sans-serif;
+/*Setting varaibles for colors and fonts*/
+:root {
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: "Macondo", cursive;   
+    --primary-color: #416a8e;    /*blue*/ 
+    --secondary-color: #aa9581;    /*a light brown color */
+    --highlight-color: #416a8e;    /*a darker blue for highlights */
+    --light-highlight-color: #7a9fc2;    /*a very light blue*/
+
 }
 
-h1 {
-    font-family: "Macondo", cursive;
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color)
+}
+
+.sub-heading-colour {
+
+    color: var(--highlight-color);
 }
