@@ -9,11 +9,15 @@
 /*Setting varaibles for colors and fonts*/
 :root {
     --primary-font: 'Inter', sans-serif;
-    --secondary-font: "Macondo", cursive;   
-    --primary-color: #402f2a;    /*brown*/ 
-    --secondary-color: #aa9581;    /*a light brown color */
-    --highlight-color: #416a8e;    /* blue for highlights */
-    --light-highlight-color: #7a9fc2;    /*a very light blue*/
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #402f2a;
+    /*brown*/
+    --secondary-color: #aa9581;
+    /*a light brown color */
+    --highlight-color: #407fb7;
+    /* blue for highlights */
+    --light-highlight-color: #7a9fc2;
+    /*a very light blue*/
 
 }
 
@@ -26,17 +30,22 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+
+}
+
+h1,
+h2 {
     text-transform: uppercase;
 }
 
-.sub-heading-colour {
+.sub-heading-color {
 
     color: var(--highlight-color);
 }
 
 .section {
     margin-top: 2rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
 /*navbar custom styles*/
@@ -49,14 +58,23 @@ h3 {
     width: 30px;
 }
 
-/***    header styles***/
+/****    header styles****/
 #header .lead {
-        font-family: var(--secondary-font);
+    font-family: var(--secondary-font);
 }
 
+/***services section styles***/
+#services .card {
+    margin-bottom: 1rem;
+}
 
+#services .card-footer {
+    color: var(--highlight-color);
+    background-color: transparent;
+    font-weight: bold;
+}
 
-    /*grid visualization css for testing
+/*grid visualization css for testing
 
 .row {
     border: 2px solid black;
@@ -65,3 +83,40 @@ h3 {
     border:2px solid white;
     background-color: lightgray;
 }*/
+
+/*************************************************/
+
+/*************Media query:tablets and larger(768px and up)*/
+@media screen and (min-width:768px) {
+
+    /*services section styles*/
+    #services .card-body {
+
+        min-height: 191px;
+    }
+}
+
+
+
+
+/*************************************************/
+/*************Media query:tablets and larger(1200px and up)*/
+@media screen and (min-width:1200px) {
+
+    /*services section styles*/
+    #services .card-body {
+
+        min-height: 220px;
+    }
+}
+
+/*************************************************/
+/*************Media query:tablets and larger(1400px and up)*/
+@media screen and (min-width:1400px) {
+
+    /*services section styles*/
+    #services .card-body {
+
+        min-height: 190px;
+    }
+}
