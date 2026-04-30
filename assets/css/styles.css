@@ -10,7 +10,7 @@
 :root {
     --primary-font: 'Inter', sans-serif;
     --secondary-font: "Macondo", cursive;   
-    --primary-color: #416a8e;    /*blue*/ 
+    --primary-color: #402f2a;    /*brown*/ 
     --secondary-color: #aa9581;    /*a light brown color */
     --highlight-color: #416a8e;    /* blue for highlights */
     --light-highlight-color: #7a9fc2;    /*a very light blue*/
@@ -33,7 +33,18 @@ h3 {
     color: var(--highlight-color);
 }
 
-/*grid visualization css for testing*/
+/*navbar custom styles*/
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand .logo {
+    width: 30px;
+}
+
+
+    /*grid visualization css for testing*/
 
 .row {
     border: 2px solid black;
