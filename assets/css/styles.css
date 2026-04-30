@@ -48,6 +48,12 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.card-footer {
+    color: var(--highlight-color);
+    background-color: transparent;
+    font-weight: bold;
+}
+
 /*navbar custom styles*/
 
 #navbar {
@@ -68,21 +74,26 @@ h2 {
     margin-bottom: 1rem;
 }
 
-#services .card-footer {
-    color: var(--highlight-color);
-    background-color: transparent;
-    font-weight: bold;
+/*++++++++++++++++ Games page styles +++++++++++++++++++++++*/
+/*removing borders from game cards*/
+#new-games .card,
+#favorite-games .card {
+    border:none;
 }
 
-/*grid visualization css for testing
-
-.row {
-    border: 2px solid black;
+#new-games .card-footer,
+#favorite-games .card-footer {
+    border-top:none;
+    color:black;
+    font-weight: normal;
 }
-.col-12 {
-    border:2px solid white;
-    background-color: lightgray;
-}*/
+
+#new-games .card,
+#favorite-games .card {
+    margin-bottom: 1rem;
+}
+
+
 
 /*************************************************/
 
@@ -108,6 +119,8 @@ h2 {
 
         min-height: 220px;
     }
+
+
 }
 
 /*************************************************/
@@ -119,4 +132,6 @@ h2 {
 
         min-height: 190px;
     }
+
+   
 }
