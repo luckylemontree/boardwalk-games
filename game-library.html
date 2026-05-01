@@ -43,7 +43,7 @@
                         <a class="nav-link " href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link" href="index.html#services">Service</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Events</a>
@@ -52,7 +52,7 @@
                         <a class="nav-link active" aria-current="page" href="game-library.html">Games</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contacts">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active btn btn-primary" href="#" max-width="">Book Now</a>
@@ -285,22 +285,78 @@
         </section>
     </main>
 
-    <!--footer/contacts section-->
+   <!--footer/contacts section-->
     <!--mt-auto added to push footer to the bottom-->
-    <footer class="mt-auto">
+    <footer id="contacts" class="mt-auto">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 text-center">Contacts section heading</div>
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Contact Us</h2>
+                </div>
                 <!--contacts info-->
-                <div class="col-12 col-md-6 col-lg-4">Contact info&social links</div>
+                <div class="col-12 col-md-6 col-lg-4 text-sm-center text-lg-start mt-1 mt-lg-2">
+                    <h3 class="sub-heading-color"> Contact Info</h3>
+                    <address class="mt-3">
+                        <i class="fa-solid fa-location-dot"> </i> <strong>Boardwalk Games</strong><br>
+                        123 Boardwalk<br>
+                        Boardwalk City, 12345<br>
+                    </address>
+                    <p>
+                        <i class="fa-solid fa-phone"></i> 012 345 6789<br>
+                        <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
+                    </p>
+                    <div class="social-links mt-2 mb-4 ">
+                        <a href="https://www.instagram.com/" aria-label="Visit our instagram page" rel="noopener"
+                            target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" aria-label="Visit our facebook page" rel="noopener"
+                            target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://x.com/" aria-label="Visit our X page" rel="noopener" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+
+                    </div>
+                </div>
                 <!--openning times-->
-                <div class="col-12 col-md-6 col-lg-4">Opening times</div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h3 class="sub-heading-color text-sm-center">Opening times</h3>
+                    <table class="table table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Open</th>
+                                <th scope="col">Close</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Mon</th>
+                                <td>closed</td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">Tue-Thur</th>
+                                <td>11am</td>
+                                <td>11pm</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">Fri-Sat</th>
+                                <td>11am</td>
+                                <td>12pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sun</th>
+                                <td>12pm</td>
+                                <td>7pm</td>
+                        </tbody>
+                    </table>
+                </div>
 
             </div>
         </div>
 
     </footer>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

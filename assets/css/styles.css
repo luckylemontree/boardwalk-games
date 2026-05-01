@@ -78,7 +78,7 @@ h2 {
 #contacts {
     background-color: var(--primary-color);
     color: white;
-    padding-bottom: 2rem ;
+   margin-top: 2rem;
 }
 
 #contacts h2 {
@@ -101,6 +101,11 @@ h2 {
 #contacts .social-links i:hover {
     color: var(--secondary-color);
     transition: color 0.2s ease-in-out;
+}
+/* opening times table styles */
+#contacts .table-dark *{
+    background-color: transparent;
+   
 }
 
 
