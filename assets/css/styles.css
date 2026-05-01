@@ -16,7 +16,7 @@
     /*a light brown color */
     --highlight-color: #407fb7;
     /* blue for highlights */
-    --light-highlight-color: #7a9fc2;
+    --light-highlight-color: #4b93d6;
     /*a very light blue*/
 
 }
@@ -73,6 +73,36 @@ h2 {
 #services .card {
     margin-bottom: 1rem;
 }
+
+/****footer/contacts section styles****/
+#contacts {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 2rem ;
+}
+
+#contacts h2 {
+    color: white;
+    font-family: var(--secondary-font);
+    margin-top: 30px;
+}
+
+#contacts .sub-heading-color {
+    color: var(--light-highlight-color);
+   
+}
+#contacts .social-links i {
+    color: var(--light-highlight-color);
+    font-size: 1.5rem;
+    margin-left: 15px;
+   
+}
+
+#contacts .social-links i:hover {
+    color: var(--secondary-color);
+    transition: color 0.2s ease-in-out;
+}
+
 
 /*++++++++++++++++ Games page styles +++++++++++++++++++++++*/
 /*removing borders from game cards*/
