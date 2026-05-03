@@ -283,6 +283,65 @@
                 </div>
             </div>
         </section>
+        <!--reservation section -->
+
+        <section id="reservation" class="container section">
+
+            <div class="row justify-content-center ">
+                <div class="col-12x col-md-8  ">
+                    <h2 class="display-6 text-center">reserve a game</h2>
+                    <p class="my-4 "> Reserve a board game for your next visit to Boardwalk Games. Pick your
+                        challenge, and let the adventure begin! Fill out your details and preferred game below, and
+                        we'll have it set aside for you when you arrive.</p>
+                </div>
+
+            </div>
+
+            <!--reservation form section-->
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    
+                    <form action="success.html" method="get" class="mt-4 row">
+
+                        <div class="mb-3 col-12  col-lg-4">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3 col-12  col-lg-4">
+                            <label for="tel" class="form-label">Telephone Number</label>
+                            <input type="tel" class="form-control" id="tel" name="tel" required>
+                        </div>
+                        <div class="mb-3 col-12 col-lg-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3 col-12 col-lg-9">
+                            <label for="event-type" class="form-label">Game selection dropdown menu</label>
+                            <select class="form-control" id="event-type" name="event-type" required>
+                                <option value="">Select game</option>
+                                <option value="birthday">Galaxy Pioneers</option>
+                                <option value="corporate">Mystic Woods</option>
+                                <option value="social">Captain's Gambit</option>
+                                <option value="social">Critter Quest</option>
+                                <option value="social">Setters of Catan</option>
+                                <option value="social">Monopoly</option>
+                                <option value="social">Exploding Kittens</option>
+                                <option value="social">Cluedo</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <label for="request-date" class="form-label">Request Date</label>
+                            <input type="date" class="form-control" id="request-date" name="request-date" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+        </section>
     </main>
 
     <!--footer/contacts section-->
