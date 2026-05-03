@@ -23,7 +23,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top:57.2px;/*to prevent content from being hidden behind the fixed navbar,push content down */
+   
 }
 
 h1,
@@ -46,6 +46,7 @@ h2 {
 
 .section {
    padding:4rem;
+   
 }
 
 .card-footer {
