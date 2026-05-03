@@ -108,7 +108,30 @@ h2 {
    
 }
 
+/* button styles */
+.custom-botton-filled {
+    border:2px solid var(--highlight-color);
+    background-color:var(--highlight-color);
+    color: rgb(250, 246, 246);
+}
 
+.custom-botton-filled:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: rgb(250, 246, 246);
+}
+
+.custom-botton-outline {
+    border:2px solid var(--highlight-color);
+   
+    color: var(--highlight-color);
+    padding:7px 25px;
+}
+.custom-botton-outline:hover{
+    background-color: var(--highlight-color);
+    color: rgb(250, 246, 246);
+  
+}
 /*++++++++++++++++ Games page styles +++++++++++++++++++++++*/
 /*removing borders from game cards*/
 #new-games .card,
